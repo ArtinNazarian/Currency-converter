@@ -1,0 +1,17 @@
+{% extends 'base.html' %} {% block title %} Currency Converter {% endblock %} {%
+block content %}
+<div id="form-div">
+  <form action="/exchange_rate" class="exchange-form" method="POST">
+    {% for msg in get_flashed_messages() %}
+    <p id="alert">{{msg}}</p>
+    {% endfor %}
+    <label>Converting From </label>
+    <input type="text" name="from-currency" id="from-currency" /><br />
+    <label>Converting To </label>
+    <input type="text" name="to-currency" id="to-currency" /><br />
+    <label>Amount</label>
+    <input type="text" name="amount" id="amount" /><br />
+    <input type="submit" value="Convert" id="convert-btn" />
+  </form>
+</div>
+{% endblock %}

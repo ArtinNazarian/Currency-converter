@@ -1,0 +1,61 @@
+label {
+  width: 120px;
+  display: inline-block;
+  margin: 10px;
+  text-align: right;
+}
+
+input {
+  margin: 10px;
+  height: 20px;
+  width: 100px;
+}
+
+#convert-btn {
+  margin-left: 120px;
+}
+
+#convert-btn,
+#home-btn {
+  width: 100px;
+  height: 25px;
+  background-color: rgb(47, 153, 47);
+  border: 2px solid rgb(47, 153, 47);
+  color: white;
+  font-size: 15px;
+}
+
+#convert-btn {
+  margin-left: 100px;
+}
+
+#alert {
+  width: 230px;
+  height: 30px;
+  text-align: center;
+  background-color: rgb(219, 57, 57);
+  color: white;
+  font-size: 18px;
+  padding: 5px;
+  margin: 10px auto;
+  margin-bottom: 20px;
+}
+
+#form-div {
+  width: 300px;
+  height: 260px;
+}
+
+#rate-div {
+  width: 190px;
+  height: 150px;
+  text-align: center;
+  font-size: 18px;
+}
+
+#form-div,
+#rate-div {
+  margin-left: 100px;
+  margin-top: 100px;
+  border: 5px solid rgba(165, 159, 159, 0.774);
+}
